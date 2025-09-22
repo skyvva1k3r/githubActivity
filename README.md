@@ -1,20 +1,5 @@
-# Показать все задачи / Show all tasks
-python main.py list
+# Main function
 
-# Добавить задачу / Add task
-python main.py add --name "My Task" --description "Task description" --deadline "2024-12-31 23:59"
-
-# Изменить статус / Change status
-python main.py status --name "My Task" --status "Completed"
-
-# Удалить задачу / Delete task
-python main.py delete --name "My Task"
-
-# Показать справку / Help
-python main.py --help
-python main.py add --help
-
-# Интерактивный режим / Interactive start
-python main.py interactive
+Поиск пользователя по имени или ссылке профиля github и вывод всех его активностей с подробностями / User search by his github's profile name or url and printing info about all his activities with description.
 
 https://roadmap.sh/projects/github-user-activity
